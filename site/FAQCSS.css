@@ -1,0 +1,32 @@
+html
+{
+  font-family: sans-serif ;
+}
+p
+{
+  text-align: left;
+  width: 50em;
+}
+.flotte
+{
+  float:left;
+  margin-right: 50px;
+}
+
+.faq ul
+{
+  list-style:none;
+  text-decoration:none!important;
+  margin:0!important;
+  padding:0!important;
+  -webkit-padding-start:0!important;
+}
+.faq li
+{
+  padding:8px 0;
+  border-bottom:1px solid #ccc;
+}
+.faq li a:hover
+{
+  text-decoration:none!important;
+}
