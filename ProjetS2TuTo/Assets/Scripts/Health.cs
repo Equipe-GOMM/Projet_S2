@@ -11,9 +11,27 @@ public class Health : MonoBehaviour
     public Image[] hearts;   // array d'image
     public Sprite FullHeart;  // sprite du coeur pleins 
     public Sprite EmptyHeart;  // sprite du coeur vide 
+    public GameObject gameoverUI;
 
+     void Start()
+    {
+        gameoverUI.SetActive(false);
+    }
+
+    public void TakeDamage(int amount)
+    {
+        health -= amount;
+    }
     void Update()
     {
+
+        if(health == 0)
+        {
+            Destroy(gameObject);
+            Debug.Log("GameOver");
+            gameoverUI.SetActive(true);
+
+        }
         if(health > numberOfHearts)  //Evite qu'on ai plus de coeur que prévus
         {
             health = numberOfHearts;
@@ -26,7 +44,8 @@ public class Health : MonoBehaviour
             }
             else
             {
-                hearts[i].sprite = EmptyHeart; // Image du coeur vide quand l'index est plus grand que notre vie 
+                hearts[i].sprite = EmptyHeart; // Image du coeur vide quand l'index est plus grand que notre vie
+               
             }
 
             if(i < numberOfHearts)     

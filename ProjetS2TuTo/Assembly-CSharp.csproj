@@ -69,10 +69,16 @@
     <Compile Include="Assets\Scripts\Dissapear.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\Freeze.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Health.cs" />
     <Compile Include="Assets\Scripts\KillFloor.cs" />
     <Compile Include="Assets\Scripts\Mouvement2D.cs" />
+    <Compile Include="Assets\Scripts\MovingOposite.cs" />
+    <Compile Include="Assets\Scripts\MovingPlateformeScirpt.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Player Health.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Spikes.cs" />
     <Compile Include="Assets\Scripts\Trigger.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Projet Unity/ProjetS2TuTo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
