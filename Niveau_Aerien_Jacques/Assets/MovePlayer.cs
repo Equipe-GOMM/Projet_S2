@@ -28,4 +28,5 @@ public class MovePlayer : MonoBehaviour
         Vector3 targetVelocity= new Vector2(rb.velocity.x,verticalMove);
         rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
     }
+    
 }
