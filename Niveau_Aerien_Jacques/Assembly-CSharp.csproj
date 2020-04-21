@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A8FBF64E-0194-25D1-2829-9DFA8ADFFB63}</ProjectGuid>
+    <ProjectGuid>{0173CC35-590E-88E2-6678-8C2DD356EC20}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ArrowMovement.cs" />
      <Compile Include="Assets\Low_Swordman\Demo\Scripts\CameraController.cs" />
      <Compile Include="Assets\Low_Swordman\Demo\Scripts\Demo_GM.cs" />
      <Compile Include="Assets\Low_Swordman\Demo\Scripts\GroundSensor.cs" />
@@ -65,37 +66,37 @@
      <Compile Include="Assets\Low_Swordman\Demo\Scripts\Swordman.cs" />
      <Compile Include="Assets\MovePlayer.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/jackm/projet_s2_sans_git/Niveau Aérien/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/jackm/Projet_S2/Niveau_Aerien_Jacques/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
