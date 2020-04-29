@@ -1,0 +1,2 @@
+Soutenance[[:space:]]1 filter=lfs diff=lfs merge=lfs -text
+test[[:space:]]git[[:space:]]lfs/ filter=lfs diff=lfs merge=lfs -text
